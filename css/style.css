@@ -1,0 +1,51 @@
+body {
+	background-color: black;
+}	
+
+nav {
+	padding: 10px 10px;
+	text-align: center;
+	font-family: Segoe UI;
+}	
+
+nav a {
+	padding-right: 30px;
+	color: #6B99AD;
+	text-decoration: none;
+}	
+
+header {
+	
+}
+
+aside {
+	float: right;
+}
+
+h3 {
+	color: #F0F8FF;
+}	
+
+h1 {
+	color: #A5DFEF;
+}	
+
+#bandai {
+	float: right;
+}	
+
+#articleh1 {
+	text-align: center;
+	color: gray;
+}	
+
+footer {
+	color: gray;
+	text-align: center;
+	font-family: Lucida Console;
+	font-size: 10px;
+}	
+
+.loc {
+	color: white;
+}	
