@@ -12,6 +12,14 @@ nav a {
 	padding-right: 30px;
 	color: #6B99AD;
 	text-decoration: none;
+}
+
+a {
+	color: white;
+}	
+
+a:hover {
+	color: #919190;
 }	
 
 header {
@@ -19,15 +27,27 @@ header {
 }
 
 aside {
+	padding-left: 4%;
 	float: right;
 }
 
+h4 {
+	text-align: center;
+	color: gray;
+}	
+
 h3 {
 	color: #F0F8FF;
+	font-family: Verdana;
 }	
 
 h1 {
 	color: #A5DFEF;
+	font-family: Trebuchet MS;
+}	
+
+article {
+	
 }	
 
 #bandai {
@@ -37,6 +57,13 @@ h1 {
 #articleh1 {
 	text-align: center;
 	color: gray;
+	font-family: "nobel-bold",Helvetica,sans-serif;
+}
+
+#productcat {
+	color: white;
+	text-align: center;
+	font-family: Candara;
 }	
 
 footer {
@@ -47,5 +74,22 @@ footer {
 }	
 
 .loc {
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}	
+
+.parawhite {
+	color: white;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}	
+
+.parablue {
+	color: #A5DFEF;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}	
+
+.parawhitenoctr {
 	color: white;
 }	
