@@ -1,0 +1,95 @@
+body {
+	background-color: black;
+}	
+
+nav {
+	padding: 10px 10px;
+	text-align: center;
+	font-family: Segoe UI;
+}	
+
+nav a {
+	padding-right: 30px;
+	color: #6B99AD;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+}	
+
+a:hover {
+	color: #919190;
+}	
+
+header {
+	
+}
+
+article {
+	padding-left: 4%;
+	float: right;
+}
+
+h4 {
+	text-align: center;
+	color: gray;
+}	
+
+h3 {
+	color: #F0F8FF;
+	font-family: Verdana;
+}	
+
+h1 {
+	color: #A5DFEF;
+	font-family: Trebuchet MS;
+}	
+
+aside {
+	
+}	
+
+#bandai {
+	float: right;
+}	
+
+#articleh1 {
+	text-align: center;
+	color: gray;
+	font-family: "nobel-bold",Helvetica,sans-serif;
+}
+
+#productcat {
+	color: white;
+	text-align: center;
+	font-family: Candara;
+}	
+
+footer {
+	color: gray;
+	text-align: center;
+	font-family: Lucida Console;
+	font-size: 10px;
+}	
+
+.loc {
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}	
+
+.parawhite {
+	color: white;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}	
+
+.parablue {
+	color: #A5DFEF;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}	
+
+.parawhitenoctr {
+	color: white;
+}	
