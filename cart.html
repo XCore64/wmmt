@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Cart (2) | Wangan Midnight: Maximum Tune</title>
 		<link rel="stylesheet" href="css/style.css">
+		<script src="js/function.js"></script> 
 	</head>
 	
 	<body>
@@ -26,6 +27,9 @@
 		</section>
 		
 		<article>
+			<input type="button" name="button" Value="Update Cart" onClick="multiply();multiply2()">
+			<input type="button" name="button" Value="Check Out" onClick="alertSystem()">
+			<hr />
 			<center><img src="img/security/secured.png"></center>
 			<p class="parawhitenoctr">DISCLAIMER: DO NOT<br>
 			USE THIS IMAGE FOR<br>
@@ -35,6 +39,47 @@
 		
 		<aside>
 			<h1 id="articleh1">Cart</h1> 
+			<hr />
+			<table width="80%">
+				<tr>
+					<td><img id="cab" width="150px" src="img/mt2_chihiro.jpg"></td>
+					<td>
+					<p class="parawhitenoctr">Maximum Tune 2 PCB</p>
+					<p class="parabluenoctr">Ships only PCB + Dongle</p>
+					</td>
+					<td>
+					<p class="parabluenoctr">Price:</p>
+					<p class="parabluenoctr" id="num">600.99</p>
+					<!----<input type="text" id="num" value="600.99">-->
+					</td>
+					<td>
+					<p class="parawhitenoctr">Quantity:</p> 
+					<input type="text" id="qty" value="1">
+					</td>
+					<td><p class="parabluenoctr">Subtotal:</p>
+					<p class="parabluenoctr" id="sub">600.99</p></td>
+				</tr>
+				<tr>
+					
+				</tr>
+				<tr>
+					<td><img id="wmmt1" width="150px" src="img/mt1_card.jpg"></td>
+					<td>
+					<p class="parawhitenoctr">Maximum Tune 1 Card</p>
+					<p class="parabluenoctr">Compatible with WMMT1</p>
+					</td>
+					<td><p class="parabluenoctr">Price:</p>
+					<p class="parabluenoctr" id="num2">6.99</p>
+					<!---<input type="text" id="num2" value="6.99">--->
+					</td>
+					<td>
+					<p class="parawhitenoctr">Quantity:</p> 
+					<input type="text" id="qty2" value="1">
+					</td>
+					<td><p class="parabluenoctr">Subtotal:</p>
+					<p class="parabluenoctr" id="sub2">6.99</p></td>
+				</tr>
+			</table>
 		</aside>
 		
 		<footer>
