@@ -6,6 +6,10 @@ function emergencyAlertSystem() {
 	alert("We interrupt this program because of a State emergency. Important information will follow.");
 }	
 
+function formSubmit() {
+	
+}	
+
 function multiply() {
 	var num = document.getElementById("num").innerHTML;
 	var qty = document.getElementById("qty").value;
