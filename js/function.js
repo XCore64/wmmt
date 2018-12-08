@@ -6,8 +6,8 @@ function emergencyAlertSystem() {
 	alert("We interrupt this program because of a State emergency. Important information will follow.");
 }	
 
-function formSubmit() {
-	
+function formSubmit(form) {
+	alert("Contact form submitted");
 }	
 
 function validationForm(form){
@@ -26,6 +26,7 @@ function validationForm(form){
 	//e-mail validationForm
 	if(form.email.value == ""){
 		alert("Please enter your e-mail.");
+		form.email.focus();
 		return false;
 		}
 	//e-mail char validationForm
