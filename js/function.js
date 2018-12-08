@@ -18,7 +18,7 @@ function validationForm(form){
 		return false;
 	}
 	//lname validationForm
-if(form.lname.value == ""){
+	if(form.lname.value == ""){
 		alert("Please enter your last name.");
 		form.lname.focus();
 		return false;
@@ -29,12 +29,14 @@ if(form.lname.value == ""){
 		return false;
 		}
 	//e-mail char validationForm
+	if (form.email.value != "") {
 		var at = email.indexOf("@");
 		var dot = email.lastIndexOf(".");
 		if(at<1 || dot<at+2 || dot+2>=email.length){
 			alert("Please enter your e-mail in a valid format.");
 			return false;
 		}
+	}
 	//message validationForm
 	if(form.message.value ==""){
 		alert("Please enter your message/inquiry.");
