@@ -10,6 +10,39 @@ function formSubmit() {
 	
 }	
 
+function validationForm(form){
+	//name validationForm
+	if(form.name.value == ""){
+		alert("Please enter your first name.");
+		form.name.focus();
+		return false;
+	}
+	//lname validationForm
+if(form.lname.value == ""){
+		alert("Please enter your last name.");
+		form.lname.focus();
+		return false;
+	}
+	//e-mail validationForm
+	if(form.email.value == ""){
+		alert("Please enter your e-mail.");
+		return false;
+		}
+	//e-mail char validationForm
+		var at = email.indexOf("@");
+		var dot = email.lastIndexOf(".");
+		if(at<1 || dot<at+2 || dot+2>=email.length){
+			alert("Please enter your e-mail in a valid format.");
+			return false;
+		}
+	//message validationForm
+	if(form.message.value ==""){
+		alert("Please enter your message/inquiry.");
+		form.message.focus();
+		return false;
+	}	
+}
+
 function multiply() {
 	var num = document.getElementById("num").innerHTML;
 	var qty = document.getElementById("qty").value;

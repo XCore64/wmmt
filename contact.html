@@ -31,10 +31,10 @@
 			<h2 id="articleh1">Contact</h2>
 			<p class="parawhite">Please fill this contact form and we will reach out to you as soon as possible:</p>
 			
-			<form class="parablue">
-				First Name: <input name="fname" type="text"><br>
+			<form name="contactinquiry" class="parablue" onsubmit="return validationForm(this);">
+				First Name: <input name="name" type="text"><br>
 				Last Name: <input name="lname" type="text"><br>
-				E-mail Address: <input name="email" type="text"><br>
+				E-mail Address: <input name="email" type="text" placeholder="Proper E-mail Format Req"><br>
 				Phone Number: <input name="phone" type="text"><br>
 				Preferred Contact:
 				<select name="contactprefs">
@@ -43,7 +43,7 @@
 				</select>
 				<br>
 				Message:<br>
-				<textarea name="message" rows="13" cols="40"></textarea>
+				<textarea name="message" rows="13" cols="40" placeholder="Put your message here"></textarea>
 				<br>
 				<input type="submit" value="Submit" onClick="formSubmit()">
 			</form>
