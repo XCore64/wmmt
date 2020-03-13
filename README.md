@@ -1,2 +1,2 @@
 # cis3610-mt5
-WMMT Site
+Wangan Midnight: Maximum Tune Site for Web Design class.
