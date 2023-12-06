@@ -1,5 +1,5 @@
 function alertSystem() {
-	alert("Check out function not operational. Please try again.");
+	alert("Check out function not operational. Please try again at a later time.");
 }	
 
 function emergencyAlertSystem() {
