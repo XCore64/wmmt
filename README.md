@@ -1,2 +1,2 @@
 # Wangan Midnight Site
-Wangan Midnight: Maximum Tune Site
+Wangan Midnight: Maximum Tune Series
